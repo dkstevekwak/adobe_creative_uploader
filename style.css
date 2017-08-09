@@ -1,0 +1,43 @@
+
+.resultSpan {
+	display: block;
+	color: red;
+}
+
+#list {
+	text-align:center;
+}
+
+img {
+	width: 40%;
+	height: 100%;
+	display:inline-block;
+	float:left;
+	margin: 0px 5% 5% 5%;
+}
+
+#button-wrapper {
+	text-align:center;
+}
+
+html, body {
+  width: 90%;
+  height: 100%;
+  border: 0px;
+  margin: 0px;
+  overflow-x: hidden;
+  margin: 5% 5% 5% 5%;
+}
+
+.container {
+  padding: 0px 2px;
+  display: none;
+  line-height: 0;
+}
+
+.thumb {
+  opacity: 1;
+  cursor: pointer;
+  border-style: none;
+  margin-top: 2px;
+}

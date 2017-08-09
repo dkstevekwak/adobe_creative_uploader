@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSDK Creative Cloud Files API</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+		<!-- Title -->
+		<div class="row text-center">
+			<div class="col-xs-12">
+				<h1 class="display-3">Adobe Creative Uploader</h1>
+			</div>
+		</div>
+
+		<hr>
+
+		<!-- Upload -->
+		<div class="row">
+			<div class="col-xs-12">
+				<!-- <h2>Upload Local Files to Cloud</h2> -->
+			</div>
+
+			<div class="col-xs-12">
+				<div class="row">
+					<div class="col-xs-12">
+						<label class="btn btn-default">
+						    <input class="btn btn-default btn-file" type="file" id="files" name="files[]" multiple="" />
+						</label>
+						<span id="upload-file-name"></span>
+						<output id="list">
+						</output>
+					</div>
+					<div class="col-xs-12" id="button-wrapper">
+						<button id="upload-cc-file" type="button" class="btn btn-primary">Upload</button>
+						<output id="upload-result-indicator"></output>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<hr>
+	<script src="js/lib/CSInterface-4.0.0.js"></script>
+	<script type="text/javascript" src="config.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
