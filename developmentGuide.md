@@ -65,3 +65,6 @@ Here are the steps for you to set this up:
 * **processArrayBuffer(buff)** - takes an array buffer as its input and produces base64 converted input as its output
 *  **createSpanAndInsert(innerContent, elementID)** - takes some content and an element ID as its input, wraps the content with <span> and insert <span> under the specified element 
 *  **clearChildren(id)** - takes an id as an input and clears all DOM contents under any element that has the id
+## Application Usage
+* Please read [README.md](https://github.com/dkstevekwak/adobe_creative_uploader/blob/master/README.md) to install the application
+* Open the extension by going to **Windows > Extensions > photoshopIntegration**
